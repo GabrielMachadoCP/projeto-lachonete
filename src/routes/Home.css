@@ -1,0 +1,36 @@
+body {
+  background-color: bisque;
+}
+
+.titulo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  background-color: rgb(125, 32, 32);
+  padding-bottom: 10px;
+}
+
+.propaganda {
+  text-align: center;
+  padding: 10px 30px 30px 30px;
+}
+.propaganda p {
+  color: rgb(60, 2, 2);
+  font-weight: bold;
+  padding: 0px 20px 20px 20px;
+}
+
+.propaganda img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  border: 5px solid rgba(82, 35, 35, 0.856);
+  border-radius: 15px;
+}/*# sourceMappingURL=Home.css.map */

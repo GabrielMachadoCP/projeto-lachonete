@@ -1,0 +1,42 @@
+h1 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 38px;
+  background-color: rgb(125, 32, 32);
+}
+
+.espaco {
+  padding: 20px 0 20px 0;
+}
+
+table {
+  border: 2px solid #ccc;
+  background-color: azure;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 60%;
+}
+table thead {
+  background-color: rgb(76, 2, 2);
+}
+table thead th {
+  border: 2px solid #ccc;
+  padding: 20px 60px 20px 60px;
+  color: white;
+}
+table tbody tr {
+  justify-content: space-evenly;
+}
+table tbody tr td {
+  border: 2px solid #ccc;
+  text-align: center;
+}
+table tbody tr td img {
+  width: 80%;
+}
+table tbody tr td ul li {
+  list-style: none;
+  padding: 4px;
+}/*# sourceMappingURL=Cardapio.css.map */

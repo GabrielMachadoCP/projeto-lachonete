@@ -1,0 +1,52 @@
+h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+    background-color:rgb(125, 32, 32) ;
+}
+
+.espaco{
+    padding: 20px 0 20px 0;
+}
+
+table{
+    border: 2px solid #ccc;
+    background-color: azure;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 60%;
+
+    & thead{
+        background-color:rgb(76, 2, 2);
+        
+
+        & th{
+            border: 2px solid #ccc;
+            padding: 20px 60px 20px 60px;
+            color: white;
+        }
+    }
+
+    & tbody{
+        & tr{
+            justify-content: space-evenly;
+            & td{
+                border: 2px solid #ccc;
+                text-align: center;
+
+                & img{
+                    width: 80%;
+                }
+
+                & ul{
+                    & li{
+                        list-style: none;
+                        padding: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
